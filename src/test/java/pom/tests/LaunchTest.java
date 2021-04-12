@@ -14,6 +14,7 @@ public class LaunchTest extends BaseTest {
 	public void testLauchPage() throws InterruptedException {
 		
 		eTest=report.startTest("LuanchTest");
+		eTest.log(LogStatus.INFO, "LaunchTest Started");
 		eTest.log(LogStatus.INFO, "Initialization Started");
 		initialization();
 		LaunchPage launchpage= new LaunchPage(driver, eTest);
