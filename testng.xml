@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Maven POM practice">
+	<test name="Test login Page launching">
+		<classes>
+			<class name="pom.tests.LaunchTest">
+			</class>
+		</classes>
+	</test>
+
+</suite>
